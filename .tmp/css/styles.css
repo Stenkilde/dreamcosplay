@@ -1,0 +1,3937 @@
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000311;
+  }
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000330;
+  }
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000341;
+  }
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000351;
+  }
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000356;
+  }
+}
+
+script {
+  display: none !important;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000370;
+  }
+}
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000380;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \0000392;
+  }
+}
+
+a {
+  background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003100;
+  }
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003108;
+  }
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003122;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003131;
+  }
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003139;
+  }
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003148;
+  }
+}
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003156;
+  }
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003166;
+  }
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003175;
+  }
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003187;
+  }
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003195;
+  }
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003203;
+  }
+}
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003211;
+  }
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003219;
+  }
+}
+
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003223;
+  }
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003235;
+  }
+}
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003243;
+  }
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003255;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003267;
+  }
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003278;
+  }
+}
+
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003289;
+  }
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003303;
+  }
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003315;
+  }
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003328;
+  }
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003340;
+  }
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003350;
+  }
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003362;
+  }
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003374;
+  }
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003383;
+  }
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003394;
+  }
+}
+
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/_normalize\.scss;
+  }
+
+  line {
+    font-family: \00003407;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ * Mixins and functions libary
+ *
+ * @author Full Name of Author <author@email.com>
+ * @version yyy-mm-dd (Date of latest edit)
+ */
+
+/*
+ * Base styling. example: link base styling, base font size etc.
+ */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003274;
+  }
+}
+
+.off-canvas-wrap {
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003275;
+  }
+}
+
+.inner-wrap {
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  width: 100%;
+  *zoom: 1;
+  -webkit-transition: -webkit-transform 500ms ease;
+  -ms-transition: -ms-transform 500ms ease;
+  transition: transform 500ms ease;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_global\.scss;
+  }
+
+  line {
+    font-family: \00003159;
+  }
+}
+
+.inner-wrap:before,
+.inner-wrap:after {
+  content: " ";
+  display: table;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_global\.scss;
+  }
+
+  line {
+    font-family: \00003160;
+  }
+}
+
+.inner-wrap:after {
+  clear: both;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003277;
+  }
+}
+
+nav.tab-bar {
+  -webkit-backface-visibility: hidden;
+  background: #333;
+  color: #FFF;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+  position: relative;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003140;
+  }
+}
+
+nav.tab-bar h1,
+nav.tab-bar h2,
+nav.tab-bar h3,
+nav.tab-bar h4,
+nav.tab-bar h5,
+nav.tab-bar h6 {
+  color: #FFF;
+  font-weight: bold;
+  line-height: 2.8125rem;
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003146;
+  }
+}
+
+nav.tab-bar h1,
+nav.tab-bar h2,
+nav.tab-bar h3,
+nav.tab-bar h4 {
+  font-size: 1.125rem;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003279;
+  }
+}
+
+section.left-small {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  position: absolute;
+  top: 0;
+  border-right: solid 1px #1a1a1a;
+  box-shadow: 1px 0 0 #4e4e4e;
+  left: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003280;
+  }
+}
+
+section.right-small {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  position: absolute;
+  top: 0;
+  border-left: solid 1px #4e4e4e;
+  box-shadow: -1px 0 0 #1a1a1a;
+  right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003282;
+  }
+}
+
+section.tab-bar-section {
+  padding: 0 0.625rem;
+  position: absolute;
+  text-align: center;
+  height: 2.8125rem;
+  top: 0;
+}
+
+@media only screen and (min-width: 40.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+    }
+
+    line {
+      font-family: \00003282;
+    }
+}
+
+  section.tab-bar-section {
+    text-align: left;
+  }
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003183;
+  }
+}
+
+section.tab-bar-section.left {
+  left: 0;
+  right: 2.8125rem;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003187;
+  }
+}
+
+section.tab-bar-section.right {
+  left: 2.8125rem;
+  right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003191;
+  }
+}
+
+section.tab-bar-section.middle {
+  left: 2.8125rem;
+  right: 2.8125rem;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003286;
+  }
+}
+
+a.menu-icon {
+  text-indent: 2.1875rem;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  display: block;
+  line-height: 2.0625rem;
+  padding: 0;
+  color: #fff;
+  position: relative;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003297;
+  }
+}
+
+a.menu-icon span {
+  position: absolute;
+  display: block;
+  width: 1rem;
+  height: 0;
+  left: 0.8125rem;
+  top: 0.3125rem;
+  box-shadow: 0 10px 0 1px #FFF, 0 16px 0 1px #FFF, 0 22px 0 1px #FFF;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003317;
+  }
+}
+
+a.menu-icon:hover span {
+  box-shadow: 0 10px 0 1px #b3b3b3, 0 16px 0 1px #b3b3b3, 0 22px 0 1px #b3b3b3;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003329;
+  }
+}
+
+.left-off-canvas-menu {
+  -webkit-backface-visibility: hidden;
+  width: 250px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+  overflow-y: auto;
+  background: #333;
+  z-index: 1001;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003258;
+  }
+}
+
+.left-off-canvas-menu * {
+  -webkit-backface-visibility: hidden;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003330;
+  }
+}
+
+.right-off-canvas-menu {
+  -webkit-backface-visibility: hidden;
+  width: 250px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+  overflow-y: auto;
+  background: #333;
+  z-index: 1001;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003332;
+  }
+}
+
+ul.off-canvas-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003205;
+  }
+}
+
+ul.off-canvas-list li label {
+  padding: 0.3rem 0.9375rem;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #444;
+  border-top: 1px solid #5e5e5e;
+  border-bottom: none;
+  margin: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003215;
+  }
+}
+
+ul.off-canvas-list li a {
+  display: block;
+  padding: 0.66667rem;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid #262626;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003338;
+  }
+}
+
+.move-right > .inner-wrap {
+  -webkit-transform: translate3d(250px, 0, 0);
+  -ms-transform: translate3d(250px, 0, 0);
+  transform: translate3d(250px, 0, 0);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003341;
+  }
+}
+
+.move-right a.exit-off-canvas {
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background 300ms ease;
+  transition: background 300ms ease;
+  cursor: pointer;
+  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1002;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media only screen and (min-width: 40.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+    }
+
+    line {
+      font-family: \00003246;
+    }
+}
+
+  .move-right a.exit-off-canvas:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003345;
+  }
+}
+
+.move-left > .inner-wrap {
+  -webkit-transform: translate3d(-250px, 0, 0);
+  -ms-transform: translate3d(-250px, 0, 0);
+  transform: translate3d(-250px, 0, 0);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003349;
+  }
+}
+
+.move-left a.exit-off-canvas {
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: background 300ms ease;
+  transition: background 300ms ease;
+  cursor: pointer;
+  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1002;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media only screen and (min-width: 40.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+    }
+
+    line {
+      font-family: \00003246;
+    }
+}
+
+  .move-left a.exit-off-canvas:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003354;
+  }
+}
+
+.csstransforms.no-csstransforms3d .left-off-canvas-menu {
+  -webkit-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003355;
+  }
+}
+
+.csstransforms.no-csstransforms3d .right-off-canvas-menu {
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003357;
+  }
+}
+
+.csstransforms.no-csstransforms3d .move-left > .inner-wrap {
+  -webkit-transform: translate(-250px, 0);
+  -ms-transform: translate(-250px, 0);
+  transform: translate(-250px, 0);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003358;
+  }
+}
+
+.csstransforms.no-csstransforms3d .move-right > .inner-wrap {
+  -webkit-transform: translate(250px, 0);
+  -ms-transform: translate(250px, 0);
+  transform: translate(250px, 0);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003363;
+  }
+}
+
+.no-csstransforms .left-off-canvas-menu {
+  left: -250px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003364;
+  }
+}
+
+.no-csstransforms .right-off-canvas-menu {
+  right: -250px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003366;
+  }
+}
+
+.no-csstransforms .move-left > .inner-wrap {
+  right: 250px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas\.scss;
+  }
+
+  line {
+    font-family: \00003367;
+  }
+}
+
+.no-csstransforms .move-right > .inner-wrap {
+  left: 250px;
+}
+
+/* Foundation Visibility HTML Classes */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \0000315;
+  }
+}
+
+.show-for-small,
+.show-for-small-only,
+.show-for-medium-down,
+.show-for-large-down,
+.hide-for-medium,
+.hide-for-medium-up,
+.hide-for-medium-only,
+.hide-for-large,
+.hide-for-large-up,
+.hide-for-large-only,
+.hide-for-xlarge,
+.hide-for-xlarge-up,
+.hide-for-xlarge-only,
+.hide-for-xxlarge-up,
+.hide-for-xxlarge-only {
+  display: inherit !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \0000331;
+  }
+}
+
+.hide-for-small,
+.hide-for-small-only,
+.hide-for-medium-down,
+.show-for-medium,
+.show-for-medium-up,
+.show-for-medium-only,
+.hide-for-large-down,
+.show-for-large,
+.show-for-large-up,
+.show-for-large-only,
+.show-for-xlarge,
+.show-for-xlarge-up,
+.show-for-xlarge-only,
+.show-for-xxlarge-up,
+.show-for-xxlarge-only {
+  display: none !important;
+}
+
+/* Specific visibility for tables */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \0000349;
+  }
+}
+
+table.show-for-small,
+table.show-for-small-only,
+table.show-for-medium-down,
+table.show-for-large-down,
+table.hide-for-medium,
+table.hide-for-medium-up,
+table.hide-for-medium-only,
+table.hide-for-large,
+table.hide-for-large-up,
+table.hide-for-large-only,
+table.hide-for-xlarge,
+table.hide-for-xlarge-up,
+table.hide-for-xlarge-only,
+table.hide-for-xxlarge-up,
+table.hide-for-xxlarge-only {
+  display: table;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \0000366;
+  }
+}
+
+thead.show-for-small,
+thead.show-for-small-only,
+thead.show-for-medium-down,
+thead.show-for-large-down,
+thead.hide-for-medium,
+thead.hide-for-medium-up,
+thead.hide-for-medium-only,
+thead.hide-for-large,
+thead.hide-for-large-up,
+thead.hide-for-large-only,
+thead.hide-for-xlarge,
+thead.hide-for-xlarge-up,
+thead.hide-for-xlarge-only,
+thead.hide-for-xxlarge-up,
+thead.hide-for-xxlarge-only {
+  display: table-header-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \0000383;
+  }
+}
+
+tbody.show-for-small,
+tbody.show-for-small-only,
+tbody.show-for-medium-down,
+tbody.show-for-large-down,
+tbody.hide-for-medium,
+tbody.hide-for-medium-up,
+tbody.hide-for-medium-only,
+tbody.hide-for-large,
+tbody.hide-for-large-up,
+tbody.hide-for-large-only,
+tbody.hide-for-xlarge,
+tbody.hide-for-xlarge-up,
+tbody.hide-for-xlarge-only,
+tbody.hide-for-xxlarge-up,
+tbody.hide-for-xxlarge-only {
+  display: table-row-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003100;
+  }
+}
+
+tr.show-for-small,
+tr.show-for-small-only,
+tr.show-for-medium-down,
+tr.show-for-large-down,
+tr.hide-for-medium,
+tr.hide-for-medium-up,
+tr.hide-for-medium-only,
+tr.hide-for-large,
+tr.hide-for-large-up,
+tr.hide-for-large-only,
+tr.hide-for-xlarge,
+tr.hide-for-xlarge-up,
+tr.hide-for-xlarge-only,
+tr.hide-for-xxlarge-up,
+tr.hide-for-xxlarge-only {
+  display: table-row !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003118;
+  }
+}
+
+td.show-for-small,
+td.show-for-small-only,
+td.show-for-medium-down
+td.show-for-large-down,
+td.hide-for-medium,
+td.hide-for-medium-up,
+td.hide-for-large,
+td.hide-for-large-up,
+td.hide-for-xlarge
+td.hide-for-xlarge-up,
+td.hide-for-xxlarge-up,
+th.show-for-small,
+th.show-for-small-only,
+th.show-for-medium-down
+td.show-for-large-down,
+th.hide-for-medium,
+th.hide-for-medium-up,
+th.hide-for-large,
+th.hide-for-large-up,
+th.hide-for-xlarge
+td.hide-for-xlarge-up,
+th.hide-for-xxlarge-up,
+td.show-for-medium-down
+th.show-for-large-down,
+td.hide-for-xlarge
+th.hide-for-xlarge-up,
+th.show-for-medium-down
+th.show-for-large-down,
+th.hide-for-xlarge
+th.hide-for-xlarge-up {
+  display: table-cell !important;
+}
+
+/* Medium Displays: 641px and up */
+
+@media only screen and (min-width: 40.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003133;
+    }
+}
+
+  .hide-for-small,
+  .hide-for-small-only,
+  .show-for-medium,
+  .show-for-medium-down,
+  .show-for-medium-up,
+  .show-for-medium-only,
+  .hide-for-large,
+  .hide-for-large-up,
+  .hide-for-large-only,
+  .hide-for-xlarge,
+  .hide-for-xlarge-up,
+  .hide-for-xlarge-only,
+  .hide-for-xxlarge-up,
+  .hide-for-xxlarge-only {
+    display: inherit !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003148;
+    }
+}
+
+  .show-for-small,
+  .show-for-small-only,
+  .hide-for-medium,
+  .hide-for-medium-down,
+  .hide-for-medium-up,
+  .hide-for-medium-only,
+  .hide-for-large-down,
+  .show-for-large,
+  .show-for-large-up,
+  .show-for-large-only,
+  .show-for-xlarge,
+  .show-for-xlarge-up,
+  .show-for-xlarge-only,
+  .show-for-xxlarge-up,
+  .show-for-xxlarge-only {
+    display: none !important;
+  }
+
+  /* Specific visibility for tables */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003166;
+    }
+}
+
+  table.hide-for-small,
+  table.hide-for-small-only,
+  table.show-for-medium,
+  table.show-for-medium-down,
+  table.show-for-medium-up,
+  table.show-for-medium-only,
+  table.hide-for-large,
+  table.hide-for-large-up,
+  table.hide-for-large-only,
+  table.hide-for-xlarge,
+  table.hide-for-xlarge-up,
+  table.hide-for-xlarge-only,
+  table.hide-for-xxlarge-up,
+  table.hide-for-xxlarge-only {
+    display: table;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003182;
+    }
+}
+
+  thead.hide-for-small,
+  thead.hide-for-small-only,
+  thead.show-for-medium,
+  thead.show-for-medium-down,
+  thead.show-for-medium-up,
+  thead.show-for-medium-only,
+  thead.hide-for-large,
+  thead.hide-for-large-up,
+  thead.hide-for-large-only,
+  thead.hide-for-xlarge,
+  thead.hide-for-xlarge-up,
+  thead.hide-for-xlarge-only,
+  thead.hide-for-xxlarge-up,
+  thead.hide-for-xxlarge-only {
+    display: table-header-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003198;
+    }
+}
+
+  tbody.hide-for-small,
+  tbody.hide-for-small-only,
+  tbody.show-for-medium,
+  tbody.show-for-medium-down,
+  tbody.show-for-medium-up,
+  tbody.show-for-medium-only,
+  tbody.hide-for-large,
+  tbody.hide-for-large-up,
+  tbody.hide-for-large-only,
+  tbody.hide-for-xlarge,
+  tbody.hide-for-xlarge-up,
+  tbody.hide-for-xlarge-only,
+  tbody.hide-for-xxlarge-up,
+  tbody.hide-for-xxlarge-only {
+    display: table-row-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003214;
+    }
+}
+
+  tr.hide-for-small,
+  tr.hide-for-small-only,
+  tr.show-for-medium,
+  tr.show-for-medium-down,
+  tr.show-for-medium-up,
+  tr.show-for-medium-only,
+  tr.hide-for-large,
+  tr.hide-for-large-up,
+  tr.hide-for-large-only,
+  tr.hide-for-xlarge,
+  tr.hide-for-xlarge-up,
+  tr.hide-for-xlarge-only,
+  tr.hide-for-xxlarge-up,
+  tr.hide-for-xxlarge-only {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003231;
+    }
+}
+
+  td.hide-for-small,
+  td.hide-for-small-only,
+  td.show-for-medium,
+  td.show-for-medium-down,
+  td.show-for-medium-up,
+  td.show-for-medium-only,
+  td.hide-for-large,
+  td.hide-for-large-up,
+  td.hide-for-large-only,
+  td.hide-for-xlarge,
+  td.hide-for-xlarge-up,
+  td.hide-for-xlarge-only,
+  td.hide-for-xxlarge-up,
+  td.hide-for-xxlarge-only,
+  th.hide-for-small,
+  th.hide-for-small-only,
+  th.show-for-medium,
+  th.show-for-medium-down,
+  th.show-for-medium-up,
+  th.show-for-medium-only,
+  th.hide-for-large,
+  th.hide-for-large-up,
+  th.hide-for-large-only,
+  th.hide-for-xlarge,
+  th.hide-for-xlarge-up,
+  th.hide-for-xlarge-only,
+  th.hide-for-xxlarge-up,
+  th.hide-for-xxlarge-only {
+    display: table-cell !important;
+  }
+}
+
+/* Large Displays: 1024px and up */
+
+@media only screen and (min-width: 64.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003250;
+    }
+}
+
+  .hide-for-small,
+  .hide-for-small-only,
+  .hide-for-medium,
+  .hide-for-medium-down,
+  .hide-for-medium-only,
+  .show-for-medium-up,
+  .show-for-large,
+  .show-for-large-up,
+  .show-for-large-only,
+  .hide-for-xlarge,
+  .hide-for-xlarge-up,
+  .hide-for-xlarge-only,
+  .hide-for-xxlarge-up,
+  .hide-for-xxlarge-only {
+    display: inherit !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003265;
+    }
+}
+
+  .show-for-small-only,
+  .show-for-medium,
+  .show-for-medium-down,
+  .show-for-medium-only,
+  .hide-for-large,
+  .hide-for-large-up,
+  .hide-for-large-only,
+  .show-for-xlarge,
+  .show-for-xlarge-up,
+  .show-for-xlarge-only,
+  .show-for-xxlarge-up,
+  .show-for-xxlarge-only {
+    display: none !important;
+  }
+
+  /* Specific visibility for tables */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003280;
+    }
+}
+
+  table.hide-for-small,
+  table.hide-for-small-only,
+  table.hide-for-medium,
+  table.hide-for-medium-down,
+  table.hide-for-medium-only,
+  table.show-for-medium-up,
+  table.show-for-large,
+  table.show-for-large-up,
+  table.show-for-large-only,
+  table.hide-for-xlarge,
+  table.hide-for-xlarge-up,
+  table.hide-for-xlarge-only,
+  table.hide-for-xxlarge-up,
+  table.hide-for-xxlarge-only {
+    display: table;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003296;
+    }
+}
+
+  thead.hide-for-small,
+  thead.hide-for-small-only,
+  thead.hide-for-medium,
+  thead.hide-for-medium-down,
+  thead.hide-for-medium-only,
+  thead.show-for-medium-up,
+  thead.show-for-large,
+  thead.show-for-large-up,
+  thead.show-for-large-only,
+  thead.hide-for-xlarge,
+  thead.hide-for-xlarge-up,
+  thead.hide-for-xlarge-only,
+  thead.hide-for-xxlarge-up,
+  thead.hide-for-xxlarge-only {
+    display: table-header-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003312;
+    }
+}
+
+  tbody.hide-for-small,
+  tbody.hide-for-small-only,
+  tbody.hide-for-medium,
+  tbody.hide-for-medium-down,
+  tbody.hide-for-medium-only,
+  tbody.show-for-medium-up,
+  tbody.show-for-large,
+  tbody.show-for-large-up,
+  tbody.show-for-large-only,
+  tbody.hide-for-xlarge,
+  tbody.hide-for-xlarge-up,
+  tbody.hide-for-xlarge-only,
+  tbody.hide-for-xxlarge-up,
+  tbody.hide-for-xxlarge-only {
+    display: table-row-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003328;
+    }
+}
+
+  tr.hide-for-small,
+  tr.hide-for-small-only,
+  tr.hide-for-medium,
+  tr.hide-for-medium-down,
+  tr.hide-for-medium-only,
+  tr.show-for-medium-up,
+  tr.show-for-large,
+  tr.show-for-large-up,
+  tr.show-for-large-only,
+  tr.hide-for-xlarge,
+  tr.hide-for-xlarge-up,
+  tr.hide-for-xlarge-only,
+  tr.hide-for-xxlarge-up,
+  tr.hide-for-xxlarge-only {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003345;
+    }
+}
+
+  td.hide-for-small,
+  td.hide-for-small-only,
+  td.hide-for-medium,
+  td.hide-for-medium-down,
+  td.hide-for-medium-only,
+  td.show-for-medium-up,
+  td.show-for-large,
+  td.show-for-large-up,
+  td.show-for-large-only,
+  td.hide-for-xlarge,
+  td.hide-for-xlarge-up,
+  td.hide-for-xlarge-only,
+  td.hide-for-xxlarge-up,
+  td.hide-for-xxlarge-only,
+  th.hide-for-small,
+  th.hide-for-small-only,
+  th.hide-for-medium,
+  th.hide-for-medium-down,
+  th.hide-for-medium-only,
+  th.show-for-medium-up,
+  th.show-for-large,
+  th.show-for-large-up,
+  th.show-for-large-only,
+  th.hide-for-xlarge,
+  th.hide-for-xlarge-up,
+  th.hide-for-xlarge-only,
+  th.hide-for-xxlarge-up,
+  th.hide-for-xxlarge-only {
+    display: table-cell !important;
+  }
+}
+
+/* X-Large Displays: 1441 and up */
+
+@media only screen and (min-width: 90.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003364;
+    }
+}
+
+  .hide-for-small,
+  .hide-for-small-only,
+  .hide-for-medium,
+  .hide-for-medium-down,
+  .hide-for-medium-only,
+  .show-for-medium-up,
+  .show-for-large-up,
+  .hide-for-large-only,
+  .show-for-xlarge,
+  .show-for-xlarge-up,
+  .show-for-xlarge-only,
+  .hide-for-xxlarge-up,
+  .hide-for-xxlarge-only {
+    display: inherit !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003378;
+    }
+}
+
+  .show-for-small-only,
+  .show-for-medium,
+  .show-for-medium-down,
+  .show-for-medium-only,
+  .show-for-large,
+  .show-for-large-only,
+  .show-for-large-down,
+  .hide-for-xlarge,
+  .hide-for-xlarge-up,
+  .hide-for-xlarge-only,
+  .show-for-xxlarge-up,
+  .show-for-xxlarge-only {
+    display: none !important;
+  }
+
+  /* Specific visibility for tables */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003393;
+    }
+}
+
+  table.hide-for-small,
+  table.hide-for-small-only,
+  table.hide-for-medium,
+  table.hide-for-medium-down,
+  table.hide-for-medium-only,
+  table.show-for-medium-up,
+  table.show-for-large-up,
+  table.hide-for-large-only,
+  table.show-for-xlarge,
+  table.show-for-xlarge-up,
+  table.show-for-xlarge-only,
+  table.hide-for-xxlarge-up,
+  table.hide-for-xxlarge-only {
+    display: table;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003408;
+    }
+}
+
+  thead.hide-for-small,
+  thead.hide-for-small-only,
+  thead.hide-for-medium,
+  thead.hide-for-medium-down,
+  thead.hide-for-medium-only,
+  thead.show-for-medium-up,
+  thead.show-for-large-up,
+  thead.hide-for-large-only,
+  thead.show-for-xlarge,
+  thead.show-for-xlarge-up,
+  thead.show-for-xlarge-only,
+  thead.hide-for-xxlarge-up,
+  thead.hide-for-xxlarge-only {
+    display: table-header-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003423;
+    }
+}
+
+  tbody.hide-for-small,
+  tbody.hide-for-small-only,
+  tbody.hide-for-medium,
+  tbody.hide-for-medium-down,
+  tbody.hide-for-medium-only,
+  tbody.show-for-medium-up,
+  tbody.show-for-large-up,
+  tbody.hide-for-large-only,
+  tbody.show-for-xlarge,
+  tbody.show-for-xlarge-up,
+  tbody.show-for-xlarge-only,
+  tbody.hide-for-xxlarge-up,
+  tbody.hide-for-xxlarge-only {
+    display: table-row-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003438;
+    }
+}
+
+  tr.hide-for-small,
+  tr.hide-for-small-only,
+  tr.hide-for-medium,
+  tr.hide-for-medium-down,
+  tr.hide-for-medium-only,
+  tr.show-for-medium-up,
+  tr.show-for-large-up,
+  tr.hide-for-large-only,
+  tr.show-for-xlarge,
+  tr.show-for-xlarge-up,
+  tr.show-for-xlarge-only,
+  tr.hide-for-xxlarge-up,
+  tr.hide-for-xxlarge-only {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003454;
+    }
+}
+
+  td.hide-for-small,
+  td.hide-for-small-only,
+  td.hide-for-medium,
+  td.hide-for-medium-down,
+  td.hide-for-medium-only,
+  td.show-for-medium-up,
+  td.show-for-large-up,
+  td.hide-for-large-only,
+  td.show-for-xlarge,
+  td.show-for-xlarge-up,
+  td.show-for-xlarge-only,
+  td.hide-for-xxlarge-up,
+  td.hide-for-xxlarge-only,
+  th.hide-for-small,
+  th.hide-for-small-only,
+  th.hide-for-medium,
+  th.hide-for-medium-down,
+  th.hide-for-medium-only,
+  th.show-for-medium-up,
+  th.show-for-large-up,
+  th.hide-for-large-only,
+  th.show-for-xlarge,
+  th.show-for-xlarge-up,
+  th.show-for-xlarge-only,
+  th.hide-for-xxlarge-up,
+  th.hide-for-xxlarge-only {
+    display: table-cell !important;
+  }
+}
+
+/* XX-Large Displays: 1920 and up */
+
+@media only screen and (min-width: 120.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003472;
+    }
+}
+
+  .hide-for-small,
+  .hide-for-small-only,
+  .hide-for-medium,
+  .hide-for-medium-down,
+  .hide-for-medium-only,
+  .show-for-medium-up,
+  .show-for-large-up,
+  .hide-for-large-only,
+  .hide-for-xlarge-only,
+  .show-for-xlarge-up,
+  .show-for-xxlarge-up,
+  .show-for-xxlarge-only {
+    display: inherit !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003485;
+    }
+}
+
+  .show-for-small-only,
+  .show-for-medium,
+  .show-for-medium-down,
+  .show-for-medium-only,
+  .show-for-large,
+  .show-for-large-only,
+  .show-for-large-down,
+  .hide-for-xlarge,
+  .show-for-xlarge-only,
+  .hide-for-xxlarge-up,
+  .hide-for-xxlarge-only {
+    display: none !important;
+  }
+
+  /* Specific visibility for tables */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003499;
+    }
+}
+
+  table.hide-for-small,
+  table.hide-for-small-only,
+  table.hide-for-medium,
+  table.hide-for-medium-down,
+  table.hide-for-medium-only,
+  table.show-for-medium-up,
+  table.show-for-large-up,
+  table.hide-for-xlarge-only,
+  table.show-for-xlarge-up,
+  table.show-for-xxlarge-up,
+  table.show-for-xxlarge-only {
+    display: table;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003512;
+    }
+}
+
+  thead.hide-for-small,
+  thead.hide-for-small-only,
+  thead.hide-for-medium,
+  thead.hide-for-medium-down,
+  thead.hide-for-medium-only,
+  thead.show-for-medium-up,
+  thead.show-for-large-up,
+  thead.hide-for-xlarge-only,
+  thead.show-for-xlarge-up,
+  thead.show-for-xxlarge-up,
+  thead.show-for-xxlarge-only {
+    display: table-header-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003525;
+    }
+}
+
+  tbody.hide-for-small,
+  tbody.hide-for-small-only,
+  tbody.hide-for-medium,
+  tbody.hide-for-medium-down,
+  tbody.hide-for-medium-only,
+  tbody.show-for-medium-up,
+  tbody.show-for-large-up,
+  tbody.hide-for-xlarge-only,
+  tbody.show-for-xlarge-up,
+  tbody.show-for-xxlarge-up,
+  tbody.show-for-xxlarge-only {
+    display: table-row-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003538;
+    }
+}
+
+  tr.hide-for-small,
+  tr.hide-for-small-only,
+  tr.hide-for-medium,
+  tr.hide-for-medium-down,
+  tr.hide-for-medium-only,
+  tr.show-for-medium-up,
+  tr.show-for-large-up,
+  tr.hide-for-xlarge-only,
+  tr.show-for-xlarge-up,
+  tr.show-for-xxlarge-up,
+  tr.show-for-xxlarge-only {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003552;
+    }
+}
+
+  td.hide-for-small,
+  td.hide-for-small-only,
+  td.hide-for-medium,
+  td.hide-for-medium-down,
+  td.hide-for-medium-only,
+  td.show-for-medium-up,
+  td.show-for-large-up,
+  td.hide-for-xlarge-only,
+  td.show-for-xlarge-up,
+  td.show-for-xxlarge-up,
+  td.show-for-xxlarge-only,
+  th.hide-for-small,
+  th.hide-for-small-only,
+  th.hide-for-medium,
+  th.hide-for-medium-down,
+  th.hide-for-medium-only,
+  th.show-for-medium-up,
+  th.show-for-large-up,
+  th.hide-for-xlarge-only,
+  th.show-for-xlarge-up,
+  th.show-for-xxlarge-up,
+  th.show-for-xxlarge-only {
+    display: table-cell !important;
+  }
+}
+
+/* Orientation targeting */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003568;
+  }
+}
+
+.show-for-landscape,
+.hide-for-portrait {
+  display: inherit !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003570;
+  }
+}
+
+.hide-for-landscape,
+.show-for-portrait {
+  display: none !important;
+}
+
+/* Specific visibility for tables */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003575;
+  }
+}
+
+table.hide-for-landscape,
+table.show-for-portrait {
+  display: table;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003579;
+  }
+}
+
+thead.hide-for-landscape,
+thead.show-for-portrait {
+  display: table-header-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003583;
+  }
+}
+
+tbody.hide-for-landscape,
+tbody.show-for-portrait {
+  display: table-row-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003587;
+  }
+}
+
+tr.hide-for-landscape,
+tr.show-for-portrait {
+  display: table-row !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003592;
+  }
+}
+
+td.hide-for-landscape,
+td.show-for-portrait,
+th.hide-for-landscape,
+th.show-for-portrait {
+  display: table-cell !important;
+}
+
+@media only screen and (orientation: landscape) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003597;
+    }
+}
+
+  .show-for-landscape,
+  .hide-for-portrait {
+    display: inherit !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003599;
+    }
+}
+
+  .hide-for-landscape,
+  .show-for-portrait {
+    display: none !important;
+  }
+
+  /* Specific visibility for tables */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003604;
+    }
+}
+
+  table.show-for-landscape,
+  table.hide-for-portrait {
+    display: table;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003608;
+    }
+}
+
+  thead.show-for-landscape,
+  thead.hide-for-portrait {
+    display: table-header-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003612;
+    }
+}
+
+  tbody.show-for-landscape,
+  tbody.hide-for-portrait {
+    display: table-row-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003616;
+    }
+}
+
+  tr.show-for-landscape,
+  tr.hide-for-portrait {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003621;
+    }
+}
+
+  td.show-for-landscape,
+  td.hide-for-portrait,
+  th.show-for-landscape,
+  th.hide-for-portrait {
+    display: table-cell !important;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003627;
+    }
+}
+
+  .show-for-portrait,
+  .hide-for-landscape {
+    display: inherit !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003629;
+    }
+}
+
+  .hide-for-portrait,
+  .show-for-landscape {
+    display: none !important;
+  }
+
+  /* Specific visibility for tables */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003634;
+    }
+}
+
+  table.show-for-portrait,
+  table.hide-for-landscape {
+    display: table;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003638;
+    }
+}
+
+  thead.show-for-portrait,
+  thead.hide-for-landscape {
+    display: table-header-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003642;
+    }
+}
+
+  tbody.show-for-portrait,
+  tbody.hide-for-landscape {
+    display: table-row-group !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003646;
+    }
+}
+
+  tr.show-for-portrait,
+  tr.hide-for-landscape {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+    }
+
+    line {
+      font-family: \00003651;
+    }
+}
+
+  td.show-for-portrait,
+  td.hide-for-landscape,
+  th.show-for-portrait,
+  th.hide-for-landscape {
+    display: table-cell !important;
+  }
+}
+
+/* Touch-enabled device targeting */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003657;
+  }
+}
+
+.show-for-touch {
+  display: none !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003658;
+  }
+}
+
+.hide-for-touch {
+  display: inherit !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003659;
+  }
+}
+
+.touch .show-for-touch {
+  display: inherit !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003660;
+  }
+}
+
+.touch .hide-for-touch {
+  display: none !important;
+}
+
+/* Specific visibility for tables */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003663;
+  }
+}
+
+table.hide-for-touch {
+  display: table;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003664;
+  }
+}
+
+.touch table.show-for-touch {
+  display: table;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003665;
+  }
+}
+
+thead.hide-for-touch {
+  display: table-header-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003666;
+  }
+}
+
+.touch thead.show-for-touch {
+  display: table-header-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003667;
+  }
+}
+
+tbody.hide-for-touch {
+  display: table-row-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003668;
+  }
+}
+
+.touch tbody.show-for-touch {
+  display: table-row-group !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003669;
+  }
+}
+
+tr.hide-for-touch {
+  display: table-row !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003670;
+  }
+}
+
+.touch tr.show-for-touch {
+  display: table-row !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003671;
+  }
+}
+
+td.hide-for-touch {
+  display: table-cell !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003672;
+  }
+}
+
+.touch td.show-for-touch {
+  display: table-cell !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003673;
+  }
+}
+
+th.hide-for-touch {
+  display: table-cell !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_visibility\.scss;
+  }
+
+  line {
+    font-family: \00003674;
+  }
+}
+
+.touch th.show-for-touch {
+  display: table-cell !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \000032;
+  }
+}
+
+.row.sg-row {
+  margin-bottom: .5em;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \000034;
+  }
+}
+
+.row.sg-row .columns {
+  padding: 1em;
+  background: #eee;
+  border: 1px solid #e1e1e1;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000311;
+  }
+}
+
+.sg-whitespace-container {
+  display: block;
+  width: 90%;
+  margin: 0 auto 1em auto;
+  border: 1px solid #e1e1e1;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000318;
+  }
+}
+
+.sg-swatch-container {
+  position: relative;
+  float: left;
+  width: 150px;
+  margin: 5px;
+  padding: 3px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000326;
+  }
+}
+
+.sg-swatch-container .sg-swatch-name {
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000330;
+  }
+}
+
+.sg-swatch {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background: #fff;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000335;
+  }
+}
+
+.sg-swatch .sg-swatch-alternative {
+  position: absolute;
+  width: 50%;
+  height: 25%;
+  bottom: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000340;
+  }
+}
+
+.sg-swatch .sg-swatch-alternative:first-of-type {
+  left: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000343;
+  }
+}
+
+.sg-swatch .sg-swatch-alternative:last-of-type {
+  right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_patternlab-helpers\.scss;
+  }
+
+  line {
+    font-family: \0000347;
+  }
+}
+
+.sg-swatch .sg-swatch-modifier {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000315;
+  }
+}
+
+.proto-panel {
+  background-color: #afafaf;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000317;
+  }
+}
+
+.proto-panel.d-0 {
+  background-color: #6f6f6f;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000320;
+  }
+}
+
+.proto-panel.d-1 {
+  background-color: #7c7c7c;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000323;
+  }
+}
+
+.proto-panel.d-2 {
+  background-color: #898989;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000326;
+  }
+}
+
+.proto-panel.d-3 {
+  background-color: #969696;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000329;
+  }
+}
+
+.proto-panel.d-4 {
+  background-color: #a2a2a2;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000332;
+  }
+}
+
+.proto-panel.l-0 {
+  background-color: #bcbcbc;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000335;
+  }
+}
+
+.proto-panel.l-1 {
+  background-color: #c9c9c9;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000338;
+  }
+}
+
+.proto-panel.l-2 {
+  background-color: #d5d5d5;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000341;
+  }
+}
+
+.proto-panel.l-3 {
+  background-color: #e2e2e2;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/utilities\/_prototyping\.scss;
+  }
+
+  line {
+    font-family: \0000344;
+  }
+}
+
+.proto-panel.l-4 {
+  background-color: #efefef;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \000031;
+  }
+}
+
+.brand-bg-primary {
+  background: #008CBA;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \000033;
+  }
+}
+
+.brand-bg-primary.light {
+  background: #009fd3;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \000036;
+  }
+}
+
+.brand-bg-primary.dark {
+  background: #0079a1;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000310;
+  }
+}
+
+.brand-bg-secondary {
+  background: #e7e7e7;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000312;
+  }
+}
+
+.brand-bg-secondary.light {
+  background: #f4f4f4;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000315;
+  }
+}
+
+.brand-bg-secondary.dark {
+  background: #dadada;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000319;
+  }
+}
+
+.brand-bg-alert {
+  background: #f04124;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000321;
+  }
+}
+
+.brand-bg-alert.light {
+  background: #f2563c;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000324;
+  }
+}
+
+.brand-bg-alert.dark {
+  background: #ea2f10;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000328;
+  }
+}
+
+.brand-bg-success {
+  background: #43AC6A;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000330;
+  }
+}
+
+.brand-bg-success.light {
+  background: #4eba76;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000333;
+  }
+}
+
+.brand-bg-success.dark {
+  background: #3c9a5f;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000337;
+  }
+}
+
+.brand-bg-warning {
+  background: #f08a24;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000339;
+  }
+}
+
+.brand-bg-warning.light {
+  background: #f2973c;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000342;
+  }
+}
+
+.brand-bg-warning.dark {
+  background: #ea7d10;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000346;
+  }
+}
+
+.brand-bg-info {
+  background: #a0d3e8;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000348;
+  }
+}
+
+.brand-bg-info.light {
+  background: #b5dded;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_colors\.scss;
+  }
+
+  line {
+    font-family: \0000351;
+  }
+}
+
+.brand-bg-info.dark {
+  background: #8bc9e3;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_animations\.scss;
+  }
+
+  line {
+    font-family: \000031;
+  }
+}
+
+.animate-fade {
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_animations\.scss;
+  }
+
+  line {
+    font-family: \000034;
+  }
+}
+
+.animate-gradient {
+  position: relative;
+  display: block;
+  z-index: 20;
+  -webkit-transition: box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_animations\.scss;
+  }
+
+  line {
+    font-family: \0000310;
+  }
+}
+
+.animate-gradient:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #006687;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#008CBA), to(#006687));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #008CBA, #006687);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #008CBA, #006687);
+  /* IE10 */
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #008CBA, #006687);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#008CBA', EndColorStr='#006687');
+  z-index: -10;
+  opacity: 1;
+  -webkit-transition: box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_animations\.scss;
+  }
+
+  line {
+    font-family: \0000325;
+  }
+}
+
+.animate-gradient:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #07c2ff;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#009fd3), to(#07c2ff));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #009fd3, #07c2ff);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #009fd3, #07c2ff);
+  /* IE10 */
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #009fd3, #07c2ff);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#009fd3', EndColorStr='#07c2ff');
+  z-index: -10;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_animations\.scss;
+  }
+
+  line {
+    font-family: \0000342;
+  }
+}
+
+.animate-gradient:hover:after,
+.animate-gradient:focus:after {
+  opacity: 1;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_animations\.scss;
+  }
+
+  line {
+    font-family: \0000350;
+  }
+}
+
+.animate-gradient:active:before {
+  box-shadow: inset 0px 0.25em 0.5em rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_animations\.scss;
+  }
+
+  line {
+    font-family: \0000354;
+  }
+}
+
+.animate-gradient:active:after {
+  opacity: 0;
+  -webkit-transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
+}
+
+/* ------------------------------------------ *\
+    $font import
+\* ------------------------------------------ */
+
+/* ------------------------------------------ *\
+    $Base fonts
+\* ------------------------------------------ */
+
+/*
+* In this file you define all your general styling of fonts.
+* All base font sizes are set in variables.
+*/
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_typography\.scss;
+  }
+
+  line {
+    font-family: \0000329;
+  }
+}
+
+html,
+body {
+  font-size: 100%;
+  line-height: 150%;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_typography\.scss;
+  }
+
+  line {
+    font-family: \0000333;
+  }
+}
+
+html .font-secondary,
+body .font-secondary {
+  font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+}
+
+/* ------------------------------------------ *\
+    $Icon Fonts
+\* ------------------------------------------ */
+
+/*
+* Here you want to put all your more special font styling (Use mixing for it)
+*/
+
+/* ------------------------------------------ *\
+    $Aditional font styling
+\* ------------------------------------------ */
+
+/*
+* Here you want to put all your more special font styling
+*/
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_white-space\.scss;
+  }
+
+  line {
+    font-family: \000031;
+  }
+}
+
+.ws-small {
+  padding: 0.46875rem;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_white-space\.scss;
+  }
+
+  line {
+    font-family: \000034;
+  }
+}
+
+.ws-medium {
+  padding: 0.9375rem;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/base\/_white-space\.scss;
+  }
+
+  line {
+    font-family: \000037;
+  }
+}
+
+.ws-large {
+  padding: 1.875rem;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/scss\/layouts\/_master\.scss;
+  }
+
+  line {
+    font-family: \000031;
+  }
+}
+
+.fluid-row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+  *zoom: 1;
+  width: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_global\.scss;
+  }
+
+  line {
+    font-family: \00003159;
+  }
+}
+
+.fluid-row:before,
+.fluid-row:after {
+  content: " ";
+  display: table;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/home\/olmu\/dreamcosplay\/app\/bower_components\/foundation\/scss\/foundation\/components\/_global\.scss;
+  }
+
+  line {
+    font-family: \00003160;
+  }
+}
+
+.fluid-row:after {
+  clear: both;
+}
