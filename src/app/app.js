@@ -4,20 +4,17 @@
 ==================================================================*/
 /*global angular*/
 
-var app = angular.module('dreamcosplay', ['ngCookies', 'ngResource', 'ngSanitize', 'ngRoute', 'ngAnimate']);
+var app = angular.module('dreamcosplay', ['ngCookies', 'ngResource', 'ngSanitize', 'ui.router', 'ngAnimate']);
 
-app.config(['$routeProvider', '$locationProvider', '$httpProvider', function ($routeProvider, $locationProvider, $httpProvider) {
+app.config(['$stateProvider','$urlRouterProvider', '$locationProvider', '$httpProvider', function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
 	'use strict';
 
-	$routeProvider
-		.when('/', {
-			templateUrl: 'app/main/main.tpl.html',
-            controller: 'MainCtrl'
-		})
-		.otherwise({redirectTo: '/'});
+      $stateProvider
+        .state('homepage', {
+            url: "/",
+            templateUrl: "../app/partials/home/home.tpl.html"
+        })
 
-	// This may help Browser-sync function properly
-	// $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 }]);
 
 

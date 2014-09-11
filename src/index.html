@@ -20,6 +20,7 @@
 </head>
 
 <body ng-app="dreamcosplay">
+
     <a href=""
         class="menu-toggle"
         ng-click="isOpen = !isOpen"
@@ -58,14 +59,13 @@
                 <a href="">Oliver</a>
             </div>
         </header>
-        <div class="main-content">
-            <div class="slider">
-                <img src="img/mainsection.png" alt="">
-            </div>
-            <div ng-view></div>
-        </div>
-
     </div>
+
+
+    <div class="main-content">
+        <div ui-view></div>
+    </div>
+
 
 
     <!-- build:js scripts/vendor.js -->
@@ -75,7 +75,7 @@
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/fastclick/lib/fastclick.js"></script>
     <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
@@ -83,7 +83,6 @@
     <script src="bower_components/foundation/js/foundation.js"></script>
     <!-- endbower -->
     <script src="app/app.js"></script>
-    <script src="app/main/main.js"></script>
     <!-- endbuild -->
 </body>
 </html>
