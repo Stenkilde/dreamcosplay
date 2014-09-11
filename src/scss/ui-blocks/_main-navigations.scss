@@ -1,14 +1,37 @@
 .sidebar {
-    background: limegreen;
+    transform: translate3d(0,0,0);
     &__logo {
-
+        padding: 45px 0;
+        text-align: center;
+        background: $primary-background-dark;
+        h1 {
+            color: #fff;
+            font-size: 28px;
+        }
     }
     &__menu {
         list-style-type: none;
         margin: 0;
         padding: 0;
         &--item {
-
+            height: 50px;
+            line-height: 50px;
+            border-bottom: solid #13171b 1px;
+            padding-left: 30px;
+            &.is-active {
+                background: #31353a;
+            }
+            a {
+                transition: margin .3s ease-in-out;
+                width: 100%;
+                display: block;
+                color: #fafafa;
+            }
+            &:hover {
+                a {
+                    margin-left: 20px;
+                }
+            }
         }
     }
 }

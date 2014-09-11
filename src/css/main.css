@@ -7641,18 +7641,47 @@ th.hide-for-touch {
 }
 
 .sidebar {
-  background: limegreen;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.sidebar__logo {
+  padding: 45px 0;
+  text-align: center;
+  background: #0e1214;
+}
+.sidebar__logo h1 {
+  color: #fff;
+  font-size: 28px;
 }
 .sidebar__menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+.sidebar__menu--item {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid #13171b 1px;
+  padding-left: 30px;
+}
+.sidebar__menu--item.is-active {
+  background: #31353a;
+}
+.sidebar__menu--item a {
+  -webkit-transition: margin .3s ease-in-out;
+  transition: margin .3s ease-in-out;
+  width: 100%;
+  display: block;
+  color: #fafafa;
+}
+.sidebar__menu--item:hover a {
+  margin-left: 20px;
+}
 
 .sidebar-row {
   width: 270px;
-  background: tomato;
   position: absolute;
+  background: #191e23;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
   -webkit-transition: -webkit-transform .3s ease-in-out;
