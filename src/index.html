@@ -54,11 +54,16 @@
     <div class="main-row" ng-class="{'is-open': isOpen}">
         <header class="header">
             <div class="user-login text-right">
-                <img src="" alt="">
+                <img src="https://s3.amazonaws.com/uifaces/faces/twitter/whale/128.jpg" alt="">
                 <a href="">Oliver</a>
             </div>
         </header>
-        <div ng-view></div>
+        <div class="main-content">
+            <div class="slider">
+                <img src="img/mainsection.png" alt="">
+            </div>
+            <div ng-view></div>
+        </div>
 
     </div>
 
