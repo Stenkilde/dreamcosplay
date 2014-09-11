@@ -13,15 +13,55 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- endbuild -->
 
-    
+
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 </head>
 
 <body ng-app="dreamcosplay">
-    <h1>Hello Josephine meow :3</h1>
-    <div ng-view></div>
+    <a href=""
+        class="menu-toggle"
+        ng-click="isOpen = !isOpen"
+        ng-class="{'is-open': isOpen}"
+    >
+    CLICK ME
+    </a>
+    <div class="sidebar-row" ng-class="{'is-open': isOpen}">
+        <div class="sidebar">
+            <div class="sidebar__logo">
+                <h1>DreamCosplay</h1>
+            </div>
+            <ul class="sidebar__menu">
+                <li class="sidebar__menu--item">
+                    <a href="">Home</a>
+                </li>
+                <li class="sidebar__menu--item">
+                    <a href="">Team</a>
+                </li>
+                <li class="sidebar__menu--item">
+                    <a href="">Tutorials</a>
+                </li>
+                <li class="sidebar__menu--item">
+                    <a href="">Blog</a>
+                </li>
+                <li class="sidebar__menu--item">
+                    <a href="">Shop</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-row" ng-class="{'is-open': isOpen}">
+        <header class="header">
+            <div class="user-login text-right">
+                <img src="" alt="">
+                <a href="">Oliver</a>
+            </div>
+        </header>
+        <div ng-view></div>
+
+    </div>
+
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->

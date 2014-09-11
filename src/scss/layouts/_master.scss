@@ -1,0 +1,33 @@
+.sidebar-row {
+    width: 270px;
+    background: tomato;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: transform .3s ease-in-out;
+    &.is-open {
+        transform: translateX(0);
+    }
+    @media #{$medium-up} {
+        position: static;
+        transform: translateX(0);
+        height: 100vh;
+        width: 25%;
+        float: left;
+    }
+}
+
+.main-row {
+    width: 100%;
+    background: blue;
+    position: relative;
+    transition: transform .3s ease-in-out;
+    &.is-open {
+        transform: translateX(270px);
+    }
+    @media #{$medium-up} {
+        width: 75%;
+        float: left;
+    }
+}
+
+
