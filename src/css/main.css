@@ -7753,3 +7753,20 @@ th.hide-for-touch {
     float: left;
   }
 }
+
+.main-content {
+  width: 100px;
+  position: relative;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+.main-content.is-open {
+  -webkit-transform: translateX(270px);
+  transform: translateX(270px);
+}
+@media only screen and (min-width: 40.063em) {
+  .main-content {
+    width: 75%;
+    float: left;
+  }
+}

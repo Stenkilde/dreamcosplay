@@ -29,4 +29,17 @@
     }
 }
 
+.main-content {
+    width: 100px;
+    position: relative;
+    transition: transform .3s ease-in-out;
+    &.is-open {
+        transform: translateX(270px);
+    }
+    @media #{$medium-up} {
+        width: 75%;
+        float: left;
+    }
+}
+
 
