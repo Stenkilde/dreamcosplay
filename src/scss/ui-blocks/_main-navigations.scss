@@ -6,7 +6,10 @@
         background: $primary-background-dark;
         h1 {
             color: #fff;
-            font-size: 28px;
+            font-size: 22px;
+            @media #{$large-up} {
+                font-size: 28px;
+            }
         }
     }
     &__menu {

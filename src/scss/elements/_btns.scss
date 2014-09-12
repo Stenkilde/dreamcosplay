@@ -1,4 +1,8 @@
 .menu-toggle {
     position: absolute;
-
+    z-index: 20;
+    display: none;
+    @media #{$small-only} {
+        display: block;
+    }
 }

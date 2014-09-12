@@ -7638,6 +7638,13 @@ th.hide-for-touch {
 }
 .menu-toggle {
   position: absolute;
+  z-index: 20;
+  display: none;
+}
+@media only screen and (max-width: 40em) {
+  .menu-toggle {
+    display: block;
+  }
 }
 
 .header {
@@ -7674,7 +7681,12 @@ th.hide-for-touch {
 }
 .sidebar__logo h1 {
   color: #fff;
-  font-size: 28px;
+  font-size: 22px;
+}
+@media only screen and (min-width: 64.063em) {
+  .sidebar__logo h1 {
+    font-size: 28px;
+  }
 }
 .sidebar__menu {
   list-style-type: none;
