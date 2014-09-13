@@ -7760,6 +7760,10 @@ th.hide-for-touch {
   margin-left: 20px;
 }
 
+.slider img {
+  width: 100%;
+}
+
 .header {
   position: relative;
   z-index: 10;
