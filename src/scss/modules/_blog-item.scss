@@ -1,0 +1,30 @@
+.blog-list {
+	margin: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+.blog-item {
+	@include clearfix();
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px #e5e5e5 solid;
+	a {
+		color: #000;
+	}
+	.text-area {
+		opacity: 0.5;
+		transition: all .3s ease-in-out;
+		padding: 10px;
+		h3, p, small {
+			margin: 0;
+		}
+	}
+
+	&:hover {
+		.text-area {
+			opacity: 1;
+			margin-left: 20px;
+		}
+	}
+}

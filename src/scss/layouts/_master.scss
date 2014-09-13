@@ -6,6 +6,7 @@ body {
     width: 270px;
     position: absolute;
     background: $primary-background;
+    height: 100vh;
     transform: translateX(-100%);
     transition: transform .3s ease-in-out;
     &.is-open {
@@ -14,7 +15,6 @@ body {
     @media #{$medium-up} {
         position: fixed;
         transform: translateX(0);
-        height: 100vh;
         width: 15%;
         float: left;
     }
@@ -29,25 +29,30 @@ body {
     }
     @media #{$medium-up} {
         width: 85%;
+        margin-left: 15%;
         float: left;
     }
 }
 
 .main-content {
-    width: 100px;
+    width: 100%;
     position: relative;
     transition: transform .3s ease-in-out;
     &.is-open {
         transform: translateX(270px);
     }
     @media #{$medium-up} {
+        width: 85%;
         margin-left: 15%;
-        width: 75%;
         float: left;
-    }
-    img {
-        width: 100%;
     }
 }
 
+.collapsed {
+    padding: 0;
+}
 
+.fluid-row {
+    @include grid-row();
+    max-width: 100%;
+}
