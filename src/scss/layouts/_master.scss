@@ -1,3 +1,7 @@
+body {
+    background: #e5e5e5; 
+}
+
 .sidebar-row {
     width: 270px;
     position: absolute;
@@ -8,10 +12,10 @@
         transform: translateX(0);
     }
     @media #{$medium-up} {
-        position: static;
+        position: fixed;
         transform: translateX(0);
         height: 100vh;
-        width: 25%;
+        width: 15%;
         float: left;
     }
 }
@@ -24,7 +28,7 @@
         transform: translateX(270px);
     }
     @media #{$medium-up} {
-        width: 75%;
+        width: 85%;
         float: left;
     }
 }
@@ -37,8 +41,12 @@
         transform: translateX(270px);
     }
     @media #{$medium-up} {
+        margin-left: 15%;
         width: 75%;
         float: left;
+    }
+    img {
+        width: 100%;
     }
 }
 

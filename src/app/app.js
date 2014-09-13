@@ -24,8 +24,20 @@ app.config(['$stateProvider','$urlRouterProvider', '$locationProvider', '$httpPr
         $stateProvider
             .state('tutorials', {
                 url: '/tutorials',
-                templateUrl: '../app/partials/tutorials/tutorials.tpl.html',
+                templateUrl: '../app/partials/tutorials/tutorial.tpl.html',
                 controller: "TutorialCtrl"
+        })
+        $stateProvider
+            .state('blog', {
+                url: '/blog',
+                templateUrl: '../app/partials/blog/blog.tpl.html',
+                controller: "BlogCtrl"
+        })
+        $stateProvider
+            .state('shop', {
+                url: '/shop',
+                templateUrl: '../app/partials/shop/shop.tpl.html',
+                controller: "ShopCtrl"
         })
 }]);
 
