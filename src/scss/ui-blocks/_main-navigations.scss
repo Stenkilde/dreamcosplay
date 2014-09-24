@@ -20,11 +20,11 @@
             height: 50px;
             line-height: 50px;
             border-bottom: solid #13171b 1px;
-            padding-left: 30px;
             &.is-active {
                 background: #31353a;
             }
             a {
+                padding-left: 30px;
                 transition: margin .3s ease-in-out;
                 width: 100%;
                 display: block;

@@ -1,37 +1,35 @@
-.blog-list {
-    margin: 10px auto;
+.tutorial-list {
+    margin: 0;
     list-style-type: none;
     width: 100%;
-    text-align: center;
 }
 
-.blog-item {
+.tutorial-item {
     @include clearfix();
-    width: 20%;
-    display: inline-block;
+    width: 100%;
     background: #fff;
     border-bottom: 1px #e5e5e5 solid;
+    padding: 10px;
     a {
         color: #000;
     }
     .text-area {
-        padding: 10px;
         opacity: 0.5;
         transition: all .3s ease-in-out;
         float: left;
-        transform: scale(0.75);
         h3, p, small {
             margin: 0;
         }
     }
 
     img {
+        float: right;
     }
 
     &:hover {
         .text-area {
             opacity: 1;
-            transform: scale(1);
+            margin-left: 20px;
         }
     }
 }

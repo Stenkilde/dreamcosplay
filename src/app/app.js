@@ -9,35 +9,36 @@ var app = angular.module('dreamcosplay', ['ngCookies', 'ngResource', 'ngSanitize
 app.config(['$stateProvider','$urlRouterProvider', '$locationProvider', '$httpProvider', function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     'use strict';
 
-        $stateProvider
-            .state('homepage', {
-                url: '',
-                templateUrl: '../app/partials/home/home.tpl.html',
-                controller: "HomeCtrl"
+    $stateProvider
+        .state('homepage', {
+            url: '',
+            templateUrl: '../app/partials/home/home.tpl.html',
+            controller: "HomeCtrl"
         })
-        $stateProvider
-            .state('team', {
-                url: '/team',
-                templateUrl: '../app/partials/team/team.tpl.html',
-                controller: "TeamCtrl"
+        .state('team', {
+            url: '/team',
+            templateUrl: '../app/partials/team/team.tpl.html',
+            controller: "TeamCtrl"
         })
-        $stateProvider
-            .state('tutorials', {
-                url: '/tutorials',
-                templateUrl: '../app/partials/tutorials/tutorial.tpl.html',
-                controller: "TutorialCtrl"
+        .state('tutorials', {
+            url: '/tutorials',
+            templateUrl: '../app/partials/tutorials/tutorial.tpl.html',
+            controller: "TutorialCtrl"
         })
-        $stateProvider
-            .state('blog', {
-                url: '/blog',
-                templateUrl: '../app/partials/blog/blog.tpl.html',
-                controller: "BlogCtrl"
+        .state('blog-list', {
+            url: '/blog-list',
+            templateUrl: '../app/partials/blog/blog.tpl.html',
+            controller: "BlogCtrl"
         })
-        $stateProvider
-            .state('shop', {
-                url: '/shop',
-                templateUrl: '../app/partials/shop/shop.tpl.html',
-                controller: "ShopCtrl"
+        .state('blog', {
+            url: '/blog',
+            templateUrl: '../app/partials/blog/blog.post.tpl.html',
+            controller: "BlogCtrl"
+        })
+        .state('shop', {
+            url: '/shop',
+            templateUrl: '../app/partials/shop/shop.tpl.html',
+            controller: "ShopCtrl"
         })
 }]);
 
