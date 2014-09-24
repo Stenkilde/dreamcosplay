@@ -1,9 +1,10 @@
-html, body, .container, .header {
-    height: 100%;
+.blog-container {
+    position: relative;
+    z-index: 10;
 }
 
-/* Header */
-.header {
+/* blogheader */
+.blogheader {
     position: relative;
     margin: 0 auto;
     min-height: 560px;
@@ -173,14 +174,6 @@ button.trigger span::before {
     font-size: 1.65em;
     font-family: 'Lora', serif;
     line-height: 1.4;
-}
-
-.content blockquote::before {
-    content: '\201C';
-}
-
-.content blockquote::after {
-    content: '\201D';
 }
 
 /***** Individual effects *****/
@@ -1391,28 +1384,4 @@ a:hover, a:focus {
 
 .codrops-demos a.current-demo {
     border-bottom: 3px solid #69606b;
-}
-
-.related {
-    padding: 3em 0;
-    text-align: center;
-    font-size: 1.5em;
-    position: relative;
-}
-
-.demo-5 .related {
-    width: 60%;
-    margin-left: 40%;
-}
-
-@media screen and (max-width: 40em) {
-
-    .codrops-icon span {
-        display: none;
-    }
-
-    .related {
-        font-size: 80%;
-    }
-
 }
